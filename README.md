@@ -11,7 +11,6 @@ Minimalistyczna aplikacja mobilna do śledzenia postępów na siłowni. Zapisuj 
 - **Rekordy** — automatyczne śledzenie rekordowego ciężaru na każdym ćwiczeniu
 - **Timer przerw** — odliczanie czasu odpoczynku z presetami (30s–5min) i animowanym kółkiem
 - **Pulpit** — szybki podgląd statystyk i ostatnio trenowanych ćwiczeń
-- **Persystencja** — dane zapisywane lokalnie, działają bez internetu
 
 ## Tech Stack
 
@@ -19,7 +18,6 @@ Minimalistyczna aplikacja mobilna do śledzenia postępów na siłowni. Zapisuj 
 |---|---|
 | Framework | Flutter 3.x |
 | State management | Provider |
-| Persystencja | SharedPreferences |
 | Czcionki | Google Fonts (Space Grotesk) |
 
 ## Uruchomienie
@@ -54,12 +52,7 @@ lib/
     └── timer_screen.dart         # Timer przerwy
 ```
 
-## Screenshoty
 
-> _Do uzupełnienia po pierwszym uruchomieniu._
 
----
 
-## Licencja
 
-MIT
